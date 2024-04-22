@@ -3,263 +3,113 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Sean Anteau
+  tagline: Software Engineer II
+  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: sean@anteau.me
+  phone: 419 262 0470
+  timezone: America/Central Timezone
+  citizenship:
+  website: sean.anteau.me #do not add http://
+  linkedin: sean.anteau
+  github: swgamerx
+  # telegram: # add your nickname without '@' sign
+  #  gitlab:
+  # bitbucket:
+  # twitter: '@webjeda'
+  #  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  #  codewars:
+  #   goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+  interests:
+    title: Interests
+    info:
+      - item: Climbing
+        link:
 
-        - idiom: French
-          level: Professional
+      - item: Snowboarding
+        link:
 
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+      - item: Cooking
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    I am a seasoned Software Engineer based in Nashville with extensive experience spanning over a decade in designing and implementing innovative web applications. My expertise extends across diverse industries, including construction finance management, digital entertainment, e-commerce, and the development of graphics- and video-intensive marketing sites for product reviews. I also possess a wealth of experience in crafting robust enterprise applications.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+  title: Education
+  info:
+    - degree: Associate of Science
+      university: Full Sail Real World University
+      time: 2004 - 2006
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+  title: Experiences
+  info:
+    - role: Software Engineer II
+      time: 2021 - 2024
+      company: Built Technologies, Nashville TN
+      details: |
+        - Developed and implemented micro front-ends, custom APIs, and services to enhance the functionality of software products.
+        - Engineered front-end user interfaces tailored for financial institutions and their clients, enabling efficient management of construction projects and financial agreements.
+        - Executed the development of product-specific APIs, focusing on CRUD operations across diverse datasets such as user accounts, loan draws, and associated inspections. Implemented robust access controls to safeguard confidential information, ensuring compliance with privacy regulations.
+        - Collaborated with Deque to drive accessibility enhancements across multiple applications, contributing to the successful acquisition of a VPAT certificate for Accessibility (A11Y).
+    - role: Senior Frontend Developer
+      time: 2016 - 2018
+      company: Quore Systems, Nashville TN
+      details: |
+        - Developed web app interfaces for hotel management applications facilitating:
+          -- Scheduling of detailed room cleanings, with housekeeper assignment and live tracking dashboards.
+          -- Management of future expenses, with generated reports for hotel executives.
+          -- Housekeeper specific mini app to view assigned tasks and report issues for individual rooms.
+          -- Mini app to  manage the inspection of rooms.
+          -- Front desk usage to record and track guest requests and issues per room.
+          -- Tracking of room inventory.
+          --Scheduling and tracking of room maintenance.
+        - All applications had to support enterprise hardware using legacy browsers, which necessitated the use of older versions of JavaScript, jQuery, HTML, and CSS.
+        - Additionally, I led a small team to develop a newly designed login using a JavaScript framework that was to use a new backend API being written in an API-specific PHP framework using the existing server stack.
+    - role: Front End Developer
+      time: 2012 - 2016
+      company: Griffin Technology, Nashville TN
+      details: |
+        - Worked directly with a team of designers to retheme the existing Magento web store and blog based on Drupal. Developed complex marketing pages for new product releases, such as the Survivor Case series, which I then hand-tested on a large assortment of devices and screen resolutions to ensure responsiveness.
+        - I also used a variety of public APIs from Twitter, Instagram, Salesforce, ExactTarget, and Mailchimp to create both marketing pages and complex email campaigns for abandoned carts, follow-ups, and personal discount codes.
+    - role: Front End Developer
+      time: 2009 - 2012
+      company: Beyond Gaming, Toledo OH
+      details: |
+        - Teamed up with a remote designer and on-site with two other people to develop complex user interfaces that allowed users to:
+          -- Place wager matches against other players on popular gaming platforms.
+          -- Manage their account and funds.
+          -- View matches between other players.
+          -- Join tournaments that could consist of individual players or teams, with tournaments sometimes comprising four or more of each. We even saw some 255 team tournaments on occasion.
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: TypeScript
+      level: 100%
 
-      - name: Angular
-        level: 98%
+    - name: React
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: HTML5 & CSS
+      level: 100%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    - name: Python
+      level: 25%
