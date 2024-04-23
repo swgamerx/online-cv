@@ -1,50 +1,42 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
+skin: ceramic
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Sean Anteau
   tagline: Software Engineer II
-  avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  avatar: avatar.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: sean@anteau.me
   phone: 419 262 0470
   timezone: America/Central Timezone
-  citizenship:
-  website: sean.anteau.me #do not add http://
-  linkedin: sean.anteau
+  website: sean.anteau.me
+  linkedin: sean-anteau-042b658
   github: swgamerx
-  # telegram: # add your nickname without '@' sign
-  #  gitlab:
-  # bitbucket:
-  # twitter: '@webjeda'
-  #  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  #  codewars:
-  #   goodreads: # Number-Username, e.g. 123456-alandoe
-  pdf: http://www.africau.edu/images/default/sample.pdf
+  pdf: https://swgamerx.github.io/online-cv/assets/pdfs/Sean Anteau - Resume.pdf
 
   languages:
     title: Languages
     info:
       - idiom: English
         level: Native
-  interests:
-    title: Interests
-    info:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+#  interests:
+#    title: Interests
+#    info:
+#      - item: Climbing
+#        link:
+#
+#      - item: Snowboarding
+#        link:
+#
+#      - item: Cooking
+#        link:
 
 career-profile:
   title: Career Profile
